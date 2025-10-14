@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
+
+body {
+  transition: background-color 0.4s ease;
+}
+
+.dividerSlider {
+  border-bottom: 4px solid #d5d2ca;
+}
+
+.cardFocused {
+  background-color: #b2b8d9;
+}
+
+.containerSide {
+  padding-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .containerSide {
+    flex-direction: column;
+    align-items: left;
+
+    text-align: center;
+    width: 100%;
+  }
+
+  .containerSide .p3 {
+    padding-top: 1em;
+  }
+}
+
+.containerSide2 {
+  display: flex;
+  justify-content: left;
+
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 768px) {
+  .containerSide2 {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+}
+
+.innerContainer {
+  padding-top: 5%;
+}
+
+@media (max-width: 768px) {
+  .innerContainer {
+    padding-top: 10%;
+  }
+}
+
+.containerText {
+  padding-top: 9em;
+}
+
+.rocket {
+  display: inline-block;
+}
+
+.container {
+  overflow-x: hidden;
+}
+
+.banner2 {
+  width: 150%;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 760px) {
+  .carruselP {
+    height: 100px;
+  }
+}
+
+.cardText {
+  color: #4c4c4c;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+
+  padding-bottom: 2em;
+}
+
+@media (max-width: 760px) {
+  .cardText {
+    color: #4c4c4c;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding-bottom: 3em;
+  }
+}
+
+.carruselDiv {
+  padding-bottom: 1em;
+  padding-top: 6em;
+}
+
+@media (max-width: 760px) {
+  .carruselDiv {
+    padding-bottom: 2em;
+  }
+}
+
+.carruselDiv2 {
+  padding-bottom: 4em;
+  padding-top: 0em;
+}
+
+.animateRocket {
+  animation-duration: 1s;
+  animation-name: animated-rocket;
+  animation-fill-mode: forwards; /* Keeps the final animation state */
+}
+
+@keyframes animated-rocket {
+  100% {
+    background-color: #b2b8d9;
+  }
+}
+
+.experience {
+  opacity: 0;
+  margin-top: 10em;
+
+  padding-bottom: 12em;
+}
+
+.animateExperience {
+  animation-duration: 1.5s;
+  animation-name: animated-experience;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animated-experience {
+  0% {
+    opacity: 0;
+    margin-top: 10em;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0em;
+  }
+}
+
+.text {
+  opacity: 0;
+  margin-top: 10em;
+
+  padding-bottom: 12em;
+}
+
+.animateText {
+  animation-duration: 1.5s;
+  animation-name: animated-text;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animated-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animateExperience2 {
+  animation-duration: 1.5s;
+  animation-name: animated-experience-2;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animated-experience-2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.section1 {
+  padding-top: 4em;
+  padding-bottom: 8em;
+}
+
+.cardTitle {
+  position: absolute;
+  bottom: 0%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.cardTitle2 {
+  padding-top: 1em;
+  color: #000000;
+  font-size: 2em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+.BadgeSmall {
+  background-color: aquamarine;
+  display: inline-block;
+  padding: 0.5em 0.5em;
+  margin-left: 1em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 1rem;
+
+  color: #4c4c4c;
+
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.p1 {
+  color: #4c4c4c;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  padding-bottom: 0.1em;
+  text-align: left;
+}
+
+@media (max-width: 700px) {
+  .p1 {
+    color: #4c4c4c;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding-bottom: 0.1em;
+    text-align: left;
+  }
+}
+
+.p2 {
+  color: #4c4c4c;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  padding-bottom: 0.1em;
+  text-align: left;
+}
+
+@media (max-width: 700px) {
+  .p2 {
+    color: #4c4c4c;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding-bottom: 0.1em;
+    text-align: left;
+  }
+}
+
+.p2 {
+  color: #4c4c4c;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  padding-bottom: 0.1em;
+  text-align: left;
+}
+
+@media (max-width: 700px) {
+  .p2 {
+    color: #4c4c4c;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding-bottom: 0.1em;
+    text-align: left;
+    width: 500px;
+  }
+}
+
+.p3 {
+  color: #4c4c4c;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+
+  text-align: left;
+}
+
+@media (max-width: 700px) {
+  .p3 {
+    color: #4c4c4c;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    text-align: left;
+  }
+}
+
+.h1 {
+  color: #000000;
+  font-size: 2em;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  margin: 1em;
+}
+
+.h2 {
+  color: #d5d2ca;
+  font-size: 3em;
+  font-weight: 900;
+  z-index: 1;
+  font-family: "Roboto", sans-serif;
+
+  white-space: nowrap;
+}
+
+.h3 {
+  color: #d5d2ca;
+  font-size: 180px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.titleSpacing {
+  line-height: 0.7;
+  padding-bottom: 10em;
+}
+
+@media (max-width: 768px) {
+  .h3 {
+    font-size: 5em;
+    line-height: 1;
+  }
+}
+
+.containerCard {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Customize the shadow properties if desired */
+  width: 400px;
+  border: none;
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid #000000;
+  margin: 10px 0;
+}
+
+@media (max-width: 1400px) {
+  .cols {
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cols {
+    margin-right: 3em;
+    margin-left: 3em;
+  }
+}
+
+@media (max-width: 768px) {
+  .cols {
+    margin-right: 0em;
+    margin-left: 4em;
+  }
+  .containerCard {
+    width: 300px; /* Customize the shadow properties if desired */
+  }
+}
+
+@media (max-width: 576px) {
+  .g-4 > [class*="col-"] {
+    padding-left: 2em;
+  }
+}
+
+.imageFrame {
+  max-width: 90%;
+  max-height: auto;
+  object-fit: cover;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.containerSide3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 0em;
+  margin-bottom: 0em;
+}
+
+/* Button.css */
+
+.Submmit {
+  background-color: #f3f0ea;
+  color: #222221;
+  border: 3px solid #222221;
+
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+
+  padding: 10px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.Submmit:hover {
+  background: #222221;
+  color: #d5d2ca;
+}
+
+.Submmit:disabled {
+  opacity: 0.5; /* reduce opacity to make it look disabled */
+  cursor: not-allowed; /* change cursor to indicate it's not clickable */
+  /* add any other styles to visually indicate it's disabled */
+}
+
+@media (max-width: 760px) {
+  .individualButton {
+    margin-right: 0em;
+  }
+}
+
+@media (max-width: 780px) {
+  .Submmit {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+.videoContainer {
+  overflow: hidden;
+}
+
+.videosContainer {
+  background-color: #373838;
+  line-height: 0, 5;
+}
+
+.imageFrame {
+  max-width: 100%;
+  max-height: auto;
+  object-fit: cover;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.imageSide2 {
+  width: 20px;
+  height: auto;
+}
