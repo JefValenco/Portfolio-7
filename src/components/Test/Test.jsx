@@ -1,29 +1,9 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import { useRef, useState, useEffect } from "react";
-import { Container } from "react-bootstrap";
-import { Col } from "react-bootstrap";
 import styles from "./Test.module.css";
 
-import {
-  videogameVideo,
-  miniBahia,
-  testVideo,
-  testSlide,
-  bahiaVideo,
-  countriesVideo,
-  spoonacularVideo,
-  pokemonVideo,
-  rickVideo,
-  dogsVideo,
-  expe3,
-  git,
-  expe5,
-  expe6,
-  expe7,
-  figma9,
-  screencaptureVideogame,
-} from "../../images/images.js";
+import { testVideo, testSlide, expe7 } from "../../images/images.js";
 
 import { useInView } from "react-intersection-observer";
 

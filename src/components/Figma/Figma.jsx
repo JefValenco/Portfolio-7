@@ -20,8 +20,6 @@ import {
 
 import { useInView } from "react-intersection-observer";
 
-import { motion, useScroll, useTransform } from "framer-motion";
-
 const Figma = () => {
   const { ref: textRef1, inView: myText1IsVisible } = useInView();
 

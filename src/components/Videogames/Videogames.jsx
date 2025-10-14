@@ -1,18 +1,10 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import { useRef, useState, useEffect } from "react";
-import { Container } from "react-bootstrap";
-import { Col } from "react-bootstrap";
 import styles from "./Videogames.module.css";
 
 import {
   videogameVideo,
-  countriesVideo,
-  spoonacularVideo,
-  pokemonVideo,
-  rickVideo,
-  dogsVideo,
-  expe3,
   git,
   expe5,
   expe6,

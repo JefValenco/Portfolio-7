@@ -1,21 +1,11 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import { useRef, useState, useEffect } from "react";
-import { Container } from "react-bootstrap";
-import { Col } from "react-bootstrap";
 import styles from "./Dogs.module.css";
-import { Navbar, Nav } from "react-bootstrap";
 
 import {
-  videogameVideo,
-  countriesVideo,
-  spoonacularVideo,
-  pokemonVideo,
-  rickVideo,
   dogsVideo,
   git,
-  back,
-  expe3,
   expe5,
   expe6,
   expe7,
